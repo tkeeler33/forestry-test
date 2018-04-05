@@ -1,4 +1,6 @@
 ---
+pages:
+- test/another-event.md
 hide_body: false
 fields:
 - name: title
