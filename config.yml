@@ -2,4 +2,14 @@ baseURL: "https://yoursite.example.com/"
 languageCode: "en-us"
 title: "My Hugo Site"
 theme: "ananke"
-menu: ["main", "footer"]
+menu:
+  main:
+    - name: "about hugo"
+      pre: "<i class='fa fa-heart'></i>"
+      weight: -110
+      identifier: "about"
+      url: "/about/"
+    - name: "getting started"
+      pre: "<i class='fa fa-road'></i>"
+      weight: -100
+      url: "/getting-started/"
